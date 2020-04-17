@@ -1,0 +1,49 @@
+export const ERRORS_GET = 'ERRORS_GET';
+export const ERRORS_CLEAR = 'ERRORS_CLEAR';
+
+export const SUCCESS_GET = 'SUCCESS_GET';
+export const SUCCESS_CLEAR = 'SUCCESS_CLEAR';
+
+export const ALERT_SET = 'ALERT_SET';
+export const ALERT_REMOVE = 'ALERT_REMOVE';
+
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+
+export const GET_PROFILE = 'GET_PROFILE';
+export const PROFILE_LOADING = 'PROFILE_LOADING';
+export const PROFILE_NOT_FOUND = 'PROFILE_NOT_FOUND';
+export const CLEAR_CURRENT_PROFILE = 'CLEAR_CURRENT_PROFILE';
+export const GET_PROFILES = 'GET_PROFILES';
+
+export const PROJECT_LOADING = 'PROJECT_LOADING';
+export const GET_PROJECTS = 'GET_PROJECTS';
+export const GET_PROJECT = 'GET_PROJECT';
+
+export const POST_LOADING = 'POST_LOADING';
+export const GET_POSTS = 'GET_POSTS';
+export const GET_POST = 'GET_POST';
+export const ADD_POST = 'ADD_POST';
+export const DELETE_POST = 'DELETE_POST';
+
+export const POST_UPDATE_LIKES = 'POST_UPDATE_LIKES';
+export const POST_ADD_COMMENT = 'POST_ADD_COMMENT';
+export const POST_REMOVE_COMMENT = 'POST_REMOVE_COMMENT';
+export const POST_ERROR = 'POST_ERROR';
+
+// export const CONTACT_LOADING = 'CONTACT_LOADING';
+// export const GET_CONTACTS = 'GET_CONTACTS';
+// export const GET_CONTACT = 'GET_CONTACT';
+// export const ADD_CONTACT = 'ADD_CONTACT';
+// export const DELETE_CONTACT = 'DELETE_CONTACT';
+
+export const HEALTH_CENTER_LOADING = 'HEALTH_CENTER_LOADING';
+export const HEALTH_CENTER_GET_ALL = 'HEALTH_CENTER_GET_ALL';
+export const HEALTH_CENTER_GET = 'HEALTH_CENTER_GET';
+export const HEALTH_CENTER_ADD = 'HEALTH_CENTER_ADD';
+export const HEALTH_CENTER_DELETE = 'HEALTH_CENTER_DELETE';
+
+export const VIDEO_LOADING = 'VIDEO_LOADING';
+export const VIDEO_GET_ALL = 'VIDEO_GET_ALL';
+export const VIDEO_GET = 'VIDEO_GET';
+export const VIDEO_ADD = 'VIDEO_ADD';
+export const VIDEO_DELETE = 'VIDEO_DELETE';
