@@ -112,6 +112,7 @@ class Crossword extends React.Component {
 
   render() {
     return (
+      
       <main className='crossword'>
         <div>
           <div>
@@ -123,7 +124,7 @@ class Crossword extends React.Component {
               setBoxInFocus={this.setBoxInFocus}
             />
           </div>
-          <div>
+          <div classnames='container'>
             <Board
               grid={this.state.grid}
               allClues={this.state.clues}
@@ -150,6 +151,7 @@ class Crossword extends React.Component {
           </div>
         </div>
       </main>
+      
     );
   }
 }

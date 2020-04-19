@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Clue from './Clue';
 
 class Clues extends React.Component {
@@ -44,6 +44,7 @@ class Clues extends React.Component {
             ))}
           </ol>
         </div>
+
         <div className='clue-list-wrapper'>
           <h2>Vertical</h2>
           <ol className='clue-list'>

@@ -75,6 +75,7 @@ class App extends Component {
 							{/* Other */}
 							<Route exact path='/404' component={ NotFound } />
 							<Redirect to="/404" />
+							
 						</Switch>
 					</div>
 				</Router>
