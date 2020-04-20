@@ -1,0 +1,6 @@
+{
+  "editor.minimap.maxColumn": 180,
+  "editor.quickSuggestions": tue,
+  "prettier.printWidth": 120,
+  "prettier.resolveGlobalModules": true
+}

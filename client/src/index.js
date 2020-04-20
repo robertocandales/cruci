@@ -5,8 +5,11 @@ import * as serviceWorker from './serviceWorker';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 
-import Crossword from './components/crossword/Crossword';
-ReactDOM.render(<Crossword />, document.getElementById('root'));
+// import Crossword from './components/crossword/Crossword';
+//import Crossword from './components/crossword/Crossword';
+import Navigation from './components/crossword/components/Navigation';
+//ReactDOM.render(<Crossword />, document.getElementById('root'));
+ReactDOM.render(<Navigation />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

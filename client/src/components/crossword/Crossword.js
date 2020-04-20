@@ -1,21 +1,19 @@
 // import React from 'react';
 import React from 'react';
+
 import './Crossword.css';
 import { GRID_DATA } from './components/GridData';
 import { CLUE_DATA } from './components/CuleData';
 import Clues from './components/Clues';
 import Board from './components/Board';
 import CrosswordAction from './components/CrosswordAction';
+//import CrosswordGenerator from './components/CrosswordGenerator';
 
 class Crossword extends React.Component {
   constructor(props) {
     super(props);
     let numInputs = 0;
-    for (const box of GRID_DATA) {
-      if (box.letter) {
-        numInputs++;
-      }
-    }
+
     this.state = {
       grid: GRID_DATA,
       clues: CLUE_DATA,
@@ -27,6 +25,11 @@ class Crossword extends React.Component {
       message: '',
       totalCorrectInputs: numInputs,
     };
+    for (const box of GRID_DATA) {
+      if (box.letter) {
+        numInputs++;
+      }
+    }
 
     this.setActiveClueBoxes = this.setActiveClueBoxes.bind(this);
     this.setActiveClue = this.setActiveClue.bind(this);
@@ -112,8 +115,7 @@ class Crossword extends React.Component {
 
   render() {
     return (
-      
-      <main className='crossword'>
+      <div className='crossword'>
         <div>
           <div>
             <Clues
@@ -150,8 +152,7 @@ class Crossword extends React.Component {
             />
           </div>
         </div>
-      </main>
-      
+      </div>
     );
   }
 }
