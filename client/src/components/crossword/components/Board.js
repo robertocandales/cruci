@@ -1,11 +1,16 @@
 import React from 'react';
 import Box from './Box';
+import Timer from './Timer';
 
 class Board extends React.Component {
   render() {
     return (
       <div className='container'>
-        <div className='crossword-board'>
+        <div clasName='mb-2'>
+          <Timer />
+        </div>
+
+        <div className='crossword-board mt-4'>
           {this.props.grid.map((box) => {
             const { id, letter, clues, label } = box;
             return (

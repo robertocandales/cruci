@@ -35,6 +35,7 @@ function CrosswordGenerator() {
   const onChangeHandle = (e) => {
     setsizeChoose(e.target.value);
     //console.log(e.target.value);
+    console.log(parseInt(sizeChoose * sizeChoose));
   };
 
   return (
